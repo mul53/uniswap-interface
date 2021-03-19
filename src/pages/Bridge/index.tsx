@@ -276,6 +276,10 @@ export default function Bridge({
                   Once you transfer your tokens using the bridge you will be gifted FUSE tokens directly to your wallet
                   which will act as network gas. This will allow you to transact freely on FuseSwap
                 </TYPE.body>
+                <TYPE.body fontSize={14} textAlign="center" color={theme.red1}>
+                  Note: Please note that there are minimum limits to bridge the tokens back from fuse network to
+                  ethereum network. This is due to the high gas fees on ethereum network.
+                </TYPE.body>
                 <TYPE.body fontSize={14} textAlign="center">
                   <ExternalLink
                     target="_blank"
